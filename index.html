@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide.css">
+    <script src="slide.js"></script>
+    <title>BIG GIANT IT SOLUTION</title>
+</head>
+<body>
+       <!--header-->
+       <header class="he1">
+        <div class="logo">
+            <img src="2.jpg" alt="BIG GIANT IT SOLUTION Store Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="dropdown">
+                    <a href="#">Department</a>
+                    <ul class="submenu">
+                        <li><a href="procurement.html">Procurement</a></li>
+                        <li><a href="accounting.html">Accountant</a></li>
+                        <li><a href="HR.html">Human resources</a></li>
+                        <li><a href="marketing.html">Marketing</a></li>
+                        <li><a href="IT.html">IT</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#"><input type="button" value="LOGIN" class="in1"></a>
+                    <ul class="submenu">
+                        <li><a href="Admin.html"><input type="button" value="ADMIN" class="in1"></a></li>
+                        <li><a href="index.html"><input type="button" value="GUEST" class="in1"></a></li>
+                        
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--header-->
+    <!--body-->
+    <main>
+      <h1 class="h12"><center> BIG GIANT IT SOLUTION </center></h1>
+                <center><h1 class="h12">Let's make better world with technology<br>We provide truly prominent IT solution.<br>we solve business problems with technology.<br>And our performance is your success.<br> our passion is innovation. our expertise is unmatched.<br> we get you more</h1></center>
+                
+      <div class="slideshow-container">
+        <img class="slideshow-image" src="I4.jpg" alt="Image 1">
+        <img class="slideshow-image" src="hi5.jfif" alt="Image 1">
+        <img class="slideshow-image" src="hi6.jpg" alt="Image 1">
+        <img class="slideshow-image" src="I1.jpg" alt="Image 3">
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+      </div>
+      
+        <footer>
+            <div class="footer">
+                <div class="section">
+                  <h3 class="h31"><u>QUICK LINKS</u></h3>
+                  <a href="index.html">HOME</a>
+                  <a href="about.html">ABOUT US</a>
+                  <a href="#department">DEPARTMENT</a>
+                  <a href="contact.html">CONTACT</a>
+                </div>
+                <div class="section">
+                  <h3>OUR CONTACT</h3>
+                  <a href="+250787859332">whatsapp</a><img src="pn2.png">
+                  <a href="#">facebook</a><img src="pn1.png">
+                  <a href="#">Instagram</a><img src="pn3.png">
+                </div>
+                <div class="section">
+                    <h3>TEAM</h3>
+                   <img src="1.jpg"><br><i>UMUHOZA Amandine</i>
+                  </div>
+                <div class="section">
+                  <h3><li><a href="contact">CONTACT</a></li></h3>
+                  <a href="#">umuhozaamanda@gmail.com</a>
+                  <a href="#">+250787859332</a>
+                  <a href="#">KIGALI-RWANDA</a>
+                </div>
+                
+              </div>
+              <div class="fo1">
+                <p class="copy">&copy;BIG GIANT IT SOLUTION &nbsp;<i>licenced by Umuhoza Amanda</i></p>
+              </div>
+        </footer>
+        <script>
+          var slideIndex = 1;
+          showSlide(slideIndex);
+      
+          function changeSlide(n) {
+            showSlide(slideIndex += n);
+          }
+      
+          setInterval(()=>{changeSlide(1)}, 10000);
+      
+          function showSlide(n) {
+            var slides = document.getElementsByClassName("slideshow-image");
+      
+            if (n > slides.length) {
+              slideIndex = 1;
+            } 
+            if (n < 1) {
+              slideIndex = slides.length;
+            }
+      
+            for (var i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+              slides[i].style.display = "none";
+            }
+      
+            slides[slideIndex - 1].style.display = "block";
+          }
+        </script>
+    
+</body>
+</html>

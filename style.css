@@ -1,0 +1,477 @@
+body{
+    height: 100%;
+    background-image: url(cover.jpg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+header {
+    background-color: #cbc820;
+    color: #fbf4f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 7px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+.logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-right: 60px;
+    font-size: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color:  #000000;
+    padding: 10px;
+    
+}
+
+.submenu li {
+    margin: 5px 0;
+}
+
+
+main {
+    padding: 20px;
+    min-height: 50vh;
+}
+
+
+.footer {
+    background-color: #000000;
+    color: white;
+    padding: -25px -30px;
+    text-transform: capitalize;
+    width: 100%;
+    
+  }
+  
+  .footer hr {
+    border-top: 1px solid #0c0c0c;
+    margin: 10px 0px;
+  }
+  
+  .footer .section {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    padding: 0 10px;
+    color:white;
+  }
+  
+  .footer .section h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .footer .section a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding: 5px 0px;
+    font-size: 19px;
+  }
+  
+  .footer .section a:hover {
+    text-decoration: underline;
+  }
+  .footer .copy{
+    text-align: center;
+  }
+
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transition: all;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+
+footer {
+    background-color: #fdfdf8;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-contact h3,
+.footer-social h3 {
+    font-size: 18px;
+}
+
+.footer-contact p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social li {
+    #about-content {
+        padding: 20px;
+        background-color: #f0f0f0;
+    }
+    
+    #about-content h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    #about-content p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+    
+    
+    
+    margin-top: 10px;
+}
+
+.footer-social img {
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 10px;
+}
+
+
+
+
+
+#procurement-content {
+    padding: 20px;
+    background-color: #cbc820;
+}
+
+#procurement-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#procurement-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+
+#it-department-content,
+#hr-department-content,
+#marketing-department-content,
+#accounting-department-content {
+    padding: 20px;
+    background-color: #c5e42b;
+    border-bottom: 1px solid #ccc;
+}
+
+#it-department-content h1,
+#hr-department-content h1,
+#marketing-department-content h1,
+#accounting-department-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+#it-department-content p,
+#hr-department-content p,
+#marketing-department-content p,
+#accounting-department-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+
+#it-department-content {
+    border-top: 2px solid #e5ed6a;
+}
+
+
+#hr-department-content {
+    border-top: 2px solid #e5ed6a;
+}
+
+
+#marketing-department-content {
+    border-top: 2px solid #e5ed6a;
+}
+
+
+#accounting-department-content {
+    border-top: 2px solid #e5ed6a;
+}
+
+.contact-content {
+    padding: 20px;
+    background-color: #18cf2738;
+    border-style: none;
+    border-radius: 12px;
+}
+
+#contact-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+
+.slideshow-container {
+    max-width: 1000px;
+     position: relative;
+     margin: auto;
+   }
+
+   .slideshow-image {
+     display: none;
+     width: 100%;
+   }
+
+   .prev, .next {
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     font-size: 20px;
+     padding: 10px;
+   }
+
+   .prev {
+     left: 0;
+   }
+
+   .next {
+     right: 0;
+   }
+   .slideshow-image{
+     border: 2px solid pink;
+     border-radius: 20px;
+   }
+
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form textarea {
+    height: 150px;
+}
+
+
+
+
+.login-container {
+    background-color: #00000042;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(2, 204, 255, 0.514);
+    text-align: center;
+}
+label
+{
+    color:white;
+    font-size: large;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+h1
+{
+    color:white;
+}
+
+#login-form {
+    text-align: left;
+}
+#login-form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #dad2d2;
+    color: #0c0a0a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #e5ed6a;
+}
+
+.login-options{
+    margin-top: 15px;
+}
+.login-options button {
+    background-color: black;
+}
+.login-options button a {
+    color: #232421;
+    text-decoration: none;
+    font-size: 12px;
+}
+.login-container::a{
+    color: white;
+}
+
+button#login-admin,
+button#login-guest {
+    background-color: #c5e42b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button#login-admin:hover,
+button#login-guest:hover {
+    background-color: #555;
+}
+header.he1
+{
+    background-color: #000000;
+    height: 30px;
+    
+}
+a{
+    font-size: 23px;
+}
+a:hover
+{
+    color:rgb(213, 255, 61);
+    
+    text-decoration: none;
+
+}
+.h12
+{
+    font-family: monospace;
+    font-size: 16px;
+    color:white;
+}
+input.in1
+{
+    height:40px;
+    width:100px;
+    text-decoration: none;
+    border-style: none;
+    color:white;
+    background-color: #20b403;
+    border-radius: 5px;
+    font-family: monospace;
+
+}
+input.in1:hover
+{
+    color:white;
+    background-color: #000000;
+}
+.fo1
+{
+    background-color: #000000;
+    margin-top: -30px;
+    margin-bottom: -50px;
+    font-family: monospace;
+
+}
